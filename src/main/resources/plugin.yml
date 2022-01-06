@@ -1,0 +1,15 @@
+name: HorcruxLogin
+version: 1.0
+author: Gmsdev04
+main: br.com.gmsdev04.horcruxlogin.HorcruxLogin
+api-version: 1.18
+
+commands:
+  registrar:
+    description: Utilizado para registrar novos usuarios
+    usage: /registrar senha repetirSenha
+    permission: horcruxlogin.registrar
+  logar:
+    description: Utilizado para logar
+    usage: /logar senha
+    permission: horcruxlogin.logar
